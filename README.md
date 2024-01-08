@@ -6,7 +6,7 @@ In the example below, let's create an application that will call the application
 
 - First, you can clone the repo or just the script.
 ```
-% wget https://raw.githubusercontent.com/waldirio/launchpad-app/launchpad-app.sh
+% wget https://raw.githubusercontent.com/waldirio/launchpad-app/main/launchpad-app.sh
 ```
 - Then you can execute the script `./launchpad-app.sh`
 ```
