@@ -37,6 +37,18 @@ Using the home directory - /Users/wpinheir
 /Users/wpinheir/terminator.app/Contents/MacOS
 ```
 
+Also, this should be the folder tree
+```
+% tree terminator.app 
+terminator.app
+└── Contents
+    ├── Info.plist
+    └── MacOS
+        └── terminator
+
+3 directories, 2 files
+```
+
 After that, you could open your `Finder`, pick the folder, drag and drop over your Applications. This will install your new script, and after that, you should be good to move on, clicking on your `Launchpad` and clicking over your `terminator` application.
 
 Please, let me know if you have additional questions or concerns.
