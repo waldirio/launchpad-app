@@ -1,10 +1,13 @@
 # launchpad-app
 
-This script will help you to create an Apple application that will be presented in your own Launchpad. This script could be calling any other command that you may have in your system.
+This script will help you to create an Apple application that will be presented inside your `Launchpad`. This script could be calling any other command that you may have in your system.
 
 In the example below, let's create an application that will call the application `terminator`, a `Gnome` terminal that was installed via `brew` and didn't add any entry on `Launchpad` by default.
 
 - First, you can clone the repo or just the script.
+```
+% wget https://raw.githubusercontent.com/waldirio/launchpad-app/launchpad-app.sh
+```
 - Then you can execute the script `./launchpad-app.sh`
 ```
 % ./launchpad-app.sh
@@ -22,7 +25,7 @@ Type the path of your binary/script you would like to call: /opt/homebrew/bin/te
 Type the path to create your app. By default, it will be in your home directory [/Users/wpinheir]:
 ```
 
-At this moment, the structure will be created and your application will be ready to be installed. The output below should be something expected
+At this moment, the structure will be created and your application will be ready to be installed. The output similar to below is expected
 ```
 % ./launchpad-app.sh 
 Type the name of your app: terminator
@@ -34,7 +37,7 @@ Using the home directory - /Users/wpinheir
 /Users/wpinheir/terminator.app/Contents/MacOS
 ```
 
-After that, you could open your `Finder`, pick the folder, drag and drop over your Applications. This will install your new script, and after that, you should be good to go, clicking on your `Launchpad` and clicking over your `terminator` application.
+After that, you could open your `Finder`, pick the folder, drag and drop over your Applications. This will install your new script, and after that, you should be good to move on, clicking on your `Launchpad` and clicking over your `terminator` application.
 
 Please, let me know if you have additional questions or concerns.
 <br>Waldirio
