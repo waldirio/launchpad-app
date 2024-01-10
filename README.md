@@ -8,30 +8,30 @@ In the example below, let's create an application that will call the application
 
 Using `curl`
 ```
-% curl https://raw.githubusercontent.com/waldirio/launchpad-app/main/launchpad-app.sh -o launchpad-app.sh
+curl https://raw.githubusercontent.com/waldirio/launchpad-app/main/launchpad-app.sh -o launchpad-app.sh
 ```
 
 or
 
 Using `wget`
 ```
-% wget https://raw.githubusercontent.com/waldirio/launchpad-app/main/launchpad-app.sh
+wget https://raw.githubusercontent.com/waldirio/launchpad-app/main/launchpad-app.sh
 ```
 
 or
 
 Using `git`
 ```
-% git clone https://github.com/waldirio/launchpad-app.git
-% cd launchpad-app
+git clone https://github.com/waldirio/launchpad-app.git
+cd launchpad-app
 ```
 - Set the executable permission
 ```
-% chmod +x launchpad-app.sh
+chmod +x launchpad-app.sh
 ```
 - Then you can execute the script `./launchpad-app.sh`
 ```
-% ./launchpad-app.sh
+./launchpad-app.sh
 ```
 - Enter with the application name
 ```
