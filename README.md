@@ -4,9 +4,30 @@ This script will help you to create an Apple application that will be presented 
 
 In the example below, let's create an application that will call the application `terminator`, a `Gnome` terminal that was installed via `brew` and didn't add any entry on `Launchpad` by default.
 
-- First, you can clone the repo or just the script.
+- First, you can clone the repo or just the script. By default, MacOS has no `git` package installer, nor `wget`, then we can use curl. In order to proceed, let me show some possible ways to move on
+
+Using `curl`
+```
+% curl https://raw.githubusercontent.com/waldirio/launchpad-app/main/launchpad-app.sh -o launchpad-app.sh
+```
+
+or
+
+Using `wget`
 ```
 % wget https://raw.githubusercontent.com/waldirio/launchpad-app/main/launchpad-app.sh
+```
+
+or
+
+Using `git`
+```
+% git clone https://github.com/waldirio/launchpad-app.git
+% cd launchpad-app
+```
+- Set the executable permission
+```
+% chmod +x launchpad-app.sh
 ```
 - Then you can execute the script `./launchpad-app.sh`
 ```
